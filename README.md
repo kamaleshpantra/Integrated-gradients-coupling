@@ -134,10 +134,10 @@ Research/
 ## 📜 Citation
 
 ```bibtex
-@inproceedings{anonymous2026coupling,
-  title     = {Baseline-Evaluation Coupling in Integrated Gradients for Text: A Cross-Evaluation Study and Analysis of Ensemble Baselines},
-  author    = {Anonymous ACL Submission},
-  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)},
-  year      = {2026}
+@misc{pantra2026coupling,
+  title        = {Baseline-Evaluation Coupling in Integrated Gradients for Text: A Cross-Evaluation Study and Analysis of Ensemble Baselines},
+  author       = {Pantra, Kamalesh},
+  year         = {2026},
+  howpublished = {\url{https://github.com/kamaleshpantra/Integrated-gradients-coupling}}
 }
 ```
