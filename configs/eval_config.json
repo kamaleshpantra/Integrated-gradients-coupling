@@ -1,0 +1,14 @@
+{
+  "experiment_name": "baseline_coupling_evaluation",
+  "model_name": "distilbert-base-uncased-finetuned-sst-2-english",
+  "imdb_model_name": "textattack/distilbert-base-uncased-imdb",
+  "integration_steps": 50,
+  "output_space": "prob",
+  "seeds": [42, 123, 999],
+  "sample_size_per_seed": 150,
+  "retention_fractions": [0.10, 0.20, 0.30, 0.50],
+  "candidate_baselines": ["PAD", "MASK", "UNK", "ZERO"],
+  "erasure_schemes": ["PAD", "MASK", "UNK", "ZERO_EMB", "DELETE", "RANDOM_TOKEN", "MLM_INFILL"],
+  "np_ig_temperatures": [0.01, 0.03, 0.1, 0.3, 1.0],
+  "random_draws": 5
+}

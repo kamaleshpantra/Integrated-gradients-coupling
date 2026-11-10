@@ -31,7 +31,8 @@ def main():
     print_banner("LITERATURE REPLICATION COMPARISON AUDIT")
     print("Evaluating reproduced numbers against published benchmarks from original papers\n")
 
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(script_dir) if os.path.basename(script_dir) == "scripts" else script_dir
     results_dir = os.path.join(base_dir, "results")
     all450_path = os.path.join(results_dir, "sst2_revision_all450.csv")
     stability_path = os.path.join(results_dir, "steps_stability.csv")

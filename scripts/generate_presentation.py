@@ -925,8 +925,9 @@ def create_deck(output_pptx_path):
     print(f"Successfully generated PowerPoint deck: {output_pptx_path} (15 slides)")
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    out_path = os.path.join(base_dir, "advisor_defense_presentation.pptx")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(script_dir) if os.path.basename(script_dir) == "scripts" else script_dir
+    presentation_dir = os.path.join(repo_root, "presentation")
+    os.makedirs(presentation_dir, exist_ok=True)
+    out_path = os.path.join(presentation_dir, "research_presentation.pptx")
     create_deck(out_path)
-    parent_path = os.path.abspath(os.path.join(base_dir, "..", "advisor_defense_presentation.pptx"))
-    create_deck(parent_path)
