@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-verify_all.py - Complete Automated Verification & Advisor Defense Dashboard
+verify_all.py - Complete Automated Verification & Reproducibility Dashboard
 
 Performs end-to-end verification of all experimental data, statistical tests,
-and paper claims. Designed to be run before meeting with an advisor or defense committee.
+and paper claims. Designed for peer-review audit and verification.
 
 Usage:
     python project/verify_all.py
@@ -24,9 +24,9 @@ def print_banner(text):
     print("=" * 70)
 
 def main():
-    print_banner("GRADUATE RESEARCH AUDIT & ADVISOR VERIFICATION DASHBOARD")
+    print_banner("INDEPENDENT RESEARCH AUDIT & VERIFICATION DASHBOARD")
     print("Project: Baseline-Evaluation Coupling in Integrated Gradients for Text")
-    print("Author: Research Student | Advisor Review Ready\n")
+    print("Author: Kamalesh Pantra | Verification Complete\n")
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     results_dir = os.path.join(base_dir, "results")
@@ -159,7 +159,7 @@ def main():
     if tex_all_ok and all_passed:
         print(" [SUCCESS] ALL EXPERIMENTAL CLAIMS, STATISTICAL TESTS, AND PAPER")
         print("           NUMBERS ARE 100% REPRODUCIBLE, LOGGED, AND VERIFIED.")
-        print("           The repository is ready for Advisor Review and Defense.")
+        print("           The repository is ready for Peer Review and Evaluation.")
     else:
         print(" [WARNING] Discrepancies detected. Please check audit logs above.")
     print("=" * 70 + "\n")

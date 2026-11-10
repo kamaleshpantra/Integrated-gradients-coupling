@@ -1,6 +1,6 @@
-# Defense Preparation: Defending Your Claims to an Advisor or Committee
+# Research Defense & Peer-Review Evaluation Guide
 
-**Purpose:** This document prepares you to walk through and defend every claim in the paper, anticipate tough questions, and show the evidence chain.
+**Purpose:** This document provides a rigorous breakdown to defend every claim in the paper, anticipate tough peer-review questions, and demonstrate the complete evidence chain.
 
 ---
 
@@ -121,7 +121,7 @@ print(f"IG-UNK × Erase-UNK = {val:.4f}")
 
 ---
 
-## 5. What Changed From the Original Paper (Advisor Should Know)
+## 5. What Changed From the Pre-Audit Version
 
 | Original Claim | Revised Claim | Why |
 |---|---|---|

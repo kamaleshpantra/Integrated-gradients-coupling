@@ -125,7 +125,7 @@ def create_deck(output_pptx_path):
     meta_box = s1.shapes.add_textbox(Inches(0.8), Inches(4.6), Inches(11.5), Inches(2.0))
     tf_m = meta_box.text_frame
     p_m1 = tf_m.paragraphs[0]
-    p_m1.text = "Presenter: Research Student | Advisor Supervision Meeting"
+    p_m1.text = "Author: Kamalesh Pantra | Research Presentation"
     p_m1.font.size = Pt(14)
     p_m1.font.bold = True
     p_m1.font.color.rgb = RGBColor(255, 255, 255)
@@ -838,7 +838,7 @@ def create_deck(output_pptx_path):
     # =========================================================================
     s14 = prs.slides.add_slide(blank_layout)
     add_background(s14)
-    add_header(s14, "Advisor Defense Preparation", "Anticipating Tough Questions & Methodological Defense", "Direct, concrete answers to anticipated committee challenges")
+    add_header(s14, "Research Defense Preparation", "Anticipating Tough Questions & Methodological Defense", "Direct, concrete answers to anticipated peer-review challenges")
 
     qa_list = [
         ("Q: 'Isn't a matched effect of +0.034 trivially small to matter?'",
@@ -925,7 +925,8 @@ def create_deck(output_pptx_path):
     print(f"Successfully generated PowerPoint deck: {output_pptx_path} (15 slides)")
 
 if __name__ == "__main__":
-    out_path = "c:/Users/91798/OneDrive/Desktop/Research/advisor_defense_presentation.pptx"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(base_dir, "advisor_defense_presentation.pptx")
     create_deck(out_path)
-    # Also save in project/
-    create_deck("project/advisor_defense_presentation.pptx")
+    parent_path = os.path.abspath(os.path.join(base_dir, "..", "advisor_defense_presentation.pptx"))
+    create_deck(parent_path)

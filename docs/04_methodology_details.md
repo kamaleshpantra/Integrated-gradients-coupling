@@ -1,6 +1,6 @@
 # Detailed Methodology & Implementation Notes
 
-**Purpose:** This document provides implementation-level detail that goes beyond the paper's methodology section. It serves as a reference for reproducibility auditors, advisor review, and the student's own future self.
+**Purpose:** This document provides implementation-level detail that goes beyond the paper's methodology section. It serves as a technical reference for reproducibility audits and independent verification.
 
 ---
 

@@ -1,10 +1,8 @@
 # Research Proposal: Baseline-Evaluation Coupling in Integrated Gradients for Text
 
-**Student:** [Your Name]  
-**Advisor:** [Advisor Name]  
-**Department:** [Department of Computer Science / NLP Lab]  
-**Date Submitted:** 2026-09-01  
-**Status:** Approved → Experiments Complete → Paper Under Revision
+**Author:** Kamalesh Pantra  
+**Date:** 2026-09-01  
+**Status:** Experiments Complete → Paper Under Revision
 
 ---
 
@@ -170,11 +168,4 @@ Computed at top-$k$ fractions $\{0.10, 0.20, 0.30, 0.50\}$ and averaged (Area Ov
 6. Erion, G., et al. (2021). Improving Performance of Deep Learning Models with Axiomatic Attribution Priors and Expected Gradients. *Nature Machine Intelligence*.
 7. Chrysostomou, G. & Aletras, N. (2022). An Empirical Study on Explanations in Out-of-Domain Settings. *ACL 2022*.
 
----
 
-## 10. Approval
-
-| | Signature | Date |
-|---|---|---|
-| **Student** | __________________ | __________ |
-| **Advisor** | __________________ | __________ |

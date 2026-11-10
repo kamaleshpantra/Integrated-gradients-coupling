@@ -24,21 +24,20 @@ This repository contains the complete experimental code, raw per-example benchma
 
 ---
 
-## 🧭 Student-Advisor Research Lifecycle Documentation (`docs/`)
+## 🧭 Research Documentation & Methodology (`docs/`)
 
-To support transparent academic mentoring, reproducibility audits, and defense preparation, the complete research lifecycle is documented in [`project/docs/`](docs/README.md):
+To support rigorous open science, reproducibility audits, and independent verification, the complete research lifecycle is documented in [`project/docs/`](docs/README.md):
 
 | Stage | Document | Key Purpose |
 |---|---|---|
-| **1. Inception** | [`docs/01_research_proposal.md`](docs/01_research_proposal.md) | Initial 8-week proposal, RQs, pre-registered hypotheses |
+| **1. Inception** | [`docs/01_research_proposal.md`](docs/01_research_proposal.md) | Initial research proposal, RQs, pre-registered hypotheses |
 | **2. Background** | [`docs/02_literature_review.md`](docs/02_literature_review.md) | Survey of IG, baselines, and ERASER faithfulness |
 | **3. Execution** | [`docs/03_experiment_log.md`](docs/03_experiment_log.md) | Chronological lab notebook with 11 dated milestones |
 | **4. Technical** | [`docs/04_methodology_details.md`](docs/04_methodology_details.md) | Quadrature, Riemann sums, masking, logit-space gradients |
-| **5. Mentorship** | [`docs/05_advisor_meeting_notes.md`](docs/05_advisor_meeting_notes.md) | Agendas, feedback, and action items across 6 meetings |
-| **6. Data Schema** | [`docs/06_data_dictionary.md`](docs/06_data_dictionary.md) | Column-by-column schema for all CSV and JSON logs |
-| **7. Compliance** | [`docs/07_reproducibility_checklist.md`](docs/07_reproducibility_checklist.md) | Official ACL/NeurIPS Responsible NLP checklist |
-| **8. Reproduction** | [`docs/08_reproduction_guide.md`](docs/08_reproduction_guide.md) | Step-by-step terminal commands from scratch |
-| **9. Defense** | [`docs/09_defense_checklist.md`](docs/09_defense_checklist.md) | 5-min summary, claim defense, tough questions & answers |
+| **5. Data Schema** | [`docs/06_data_dictionary.md`](docs/06_data_dictionary.md) | Column-by-column schema for all CSV and JSON logs |
+| **6. Compliance** | [`docs/07_reproducibility_checklist.md`](docs/07_reproducibility_checklist.md) | Official ACL/NeurIPS Responsible NLP checklist |
+| **7. Reproduction** | [`docs/08_reproduction_guide.md`](docs/08_reproduction_guide.md) | Step-by-step terminal commands from scratch |
+| **8. Evaluation** | [`docs/09_defense_checklist.md`](docs/09_defense_checklist.md) | 5-min summary, claim defense, tough questions & answers |
 
 ---
 
@@ -72,16 +71,15 @@ Research/
     ├── LICENSE.md                # MIT License
     ├── README.md                 # This overview
     ├── requirements.txt          # Python dependencies
-    ├── verify_all.py             # Single-command advisor verification dashboard
+    ├── verify_all.py             # Single-command verification dashboard
     ├── run_tests.py              # Unit tests for axioms, determinism, and masking
     │
-    ├── docs/                     # Full Graduate Research Lifecycle Documentation
+    ├── docs/                     # Full Research Documentation Suite
     │   ├── README.md             # Navigation index and research roadmap
     │   ├── 01_research_proposal.md
     │   ├── 02_literature_review.md
     │   ├── 03_experiment_log.md
     │   ├── 04_methodology_details.md
-    │   ├── 05_advisor_meeting_notes.md
     │   ├── 06_data_dictionary.md
     │   ├── 07_reproducibility_checklist.md
     │   ├── 08_reproduction_guide.md
