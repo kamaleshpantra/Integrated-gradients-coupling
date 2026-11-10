@@ -1,0 +1,33 @@
+======================================================================
+ANALYSIS SUMMARY
+N examples = 100
+======================================================================
+
+── 4×4 Mean Normalized Comprehensiveness AOPC Matrix ──
+Method               PAD      MASK       UNK    DELETE
+IG_PAD            0.3990    0.4113    0.2698    0.3958
+IG_MASK           0.5321    0.5118    0.3892    0.5158
+IG_UNK            0.5147    0.4765    0.3650    0.4829
+IG_ZERO           0.3993    0.3780    0.2980    0.4018
+
+── H1: Diagonal Inflation ──
+Global diagonal mean:     0.4194
+Global off-diagonal mean: 0.4219
+Bootstrap p (diag > off): 0.1528
+Wilcoxon p  (diag > off): 0.1915538788088093
+
+── H2: NP-IG Worst-Case vs Single Baselines ──
+NP-IG worst-case mean: 0.3339
+  vs IG_PAD      : method_worst=0.1886  p(NP>meth)=0.0010
+  vs IG_MASK     : method_worst=0.3294  p(NP>meth)=0.1998
+  vs IG_UNK      : method_worst=0.2938  p(NP>meth)=0.0749
+  vs IG_ZERO     : method_worst=0.2239  p(NP>meth)=0.0010
+  vs UNIFORM_IG  : method_worst=0.3673  p(NP>meth)=0.9770
+  vs GRAD_X_INP  : method_worst=-0.0546  p(NP>meth)=0.0010
+
+── Kendall Tau (method ranking correlation across erasure schemes) ──
+               PAD      MASK       UNK    DELETE
+     PAD     1.000     0.929     1.000     1.000
+    MASK     0.929     1.000     0.929     0.929
+     UNK     1.000     0.929     1.000     1.000
+  DELETE     1.000     0.929     1.000     1.000

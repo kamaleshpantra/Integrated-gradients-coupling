@@ -1,0 +1,188 @@
+{
+  "IG_PAD": {
+    "per_scheme_tests": {
+      "PAD": {
+        "observed_mean_difference": 0.04410167695247461,
+        "bootstrap_p_value": 0.001998001998001998,
+        "wilcoxon_p_value": 0.00037698815230248776
+      },
+      "MASK": {
+        "observed_mean_difference": 0.06250772096254271,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 3.0809543160483564e-06
+      },
+      "UNK": {
+        "observed_mean_difference": 0.07369225249686376,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 3.930686322249635e-10
+      },
+      "DELETE": {
+        "observed_mean_difference": 0.03813509061703371,
+        "bootstrap_p_value": 0.003996003996003996,
+        "wilcoxon_p_value": 0.006272945939259758
+      }
+    },
+    "worst_case_test": {
+      "observed_mean_difference": 0.06069593852303014,
+      "bootstrap_p_value": 0.000999000999000999,
+      "wilcoxon_p_value": 8.355379945826954e-06
+    },
+    "npig_worst_case_mean": 0.2228851128993079,
+    "method_worst_case_mean": 0.16218917437627775
+  },
+  "IG_MASK": {
+    "per_scheme_tests": {
+      "PAD": {
+        "observed_mean_difference": 0.0037593572007123535,
+        "bootstrap_p_value": 0.025974025974025976,
+        "wilcoxon_p_value": 0.003603356977380836
+      },
+      "MASK": {
+        "observed_mean_difference": 0.00039852914856358744,
+        "bootstrap_p_value": 0.4275724275724276,
+        "wilcoxon_p_value": 0.04679905143474975
+      },
+      "UNK": {
+        "observed_mean_difference": 6.851278158137575e-05,
+        "bootstrap_p_value": 0.46853146853146854,
+        "wilcoxon_p_value": 0.00019903495889317862
+      },
+      "DELETE": {
+        "observed_mean_difference": 0.0017342739530431571,
+        "bootstrap_p_value": 0.15684315684315683,
+        "wilcoxon_p_value": 0.0004130801597027291
+      }
+    },
+    "worst_case_test": {
+      "observed_mean_difference": 0.002006078790040596,
+      "bootstrap_p_value": 0.13286713286713286,
+      "wilcoxon_p_value": 0.003746883682924021
+    },
+    "npig_worst_case_mean": 0.2228851128993079,
+    "method_worst_case_mean": 0.2208790341092673
+  },
+  "IG_UNK": {
+    "per_scheme_tests": {
+      "PAD": {
+        "observed_mean_difference": -0.030261657453920635,
+        "bootstrap_p_value": 0.965034965034965,
+        "wilcoxon_p_value": 0.995086057005786
+      },
+      "MASK": {
+        "observed_mean_difference": 0.008127386392795113,
+        "bootstrap_p_value": 0.2937062937062937,
+        "wilcoxon_p_value": 0.36706285986317483
+      },
+      "UNK": {
+        "observed_mean_difference": -0.04270355661727081,
+        "bootstrap_p_value": 0.999000999000999,
+        "wilcoxon_p_value": 0.9980161122972867
+      },
+      "DELETE": {
+        "observed_mean_difference": -0.03082775581087238,
+        "bootstrap_p_value": 0.977022977022977,
+        "wilcoxon_p_value": 0.9739771446783936
+      }
+    },
+    "worst_case_test": {
+      "observed_mean_difference": -0.023187229954148483,
+      "bootstrap_p_value": 0.9430569430569431,
+      "wilcoxon_p_value": 0.992367607284212
+    },
+    "npig_worst_case_mean": 0.2228851128993079,
+    "method_worst_case_mean": 0.24607234285345636
+  },
+  "IG_ZERO": {
+    "per_scheme_tests": {
+      "PAD": {
+        "observed_mean_difference": 0.10386264420278167,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 2.220139345318401e-14
+      },
+      "MASK": {
+        "observed_mean_difference": 0.13154327932365656,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 1.5923826366432943e-21
+      },
+      "UNK": {
+        "observed_mean_difference": 0.09842272622408928,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 7.051778920525729e-13
+      },
+      "DELETE": {
+        "observed_mean_difference": 0.10179103723428852,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 1.9259459365372708e-12
+      }
+    },
+    "worst_case_test": {
+      "observed_mean_difference": 0.09647119851350806,
+      "bootstrap_p_value": 0.000999000999000999,
+      "wilcoxon_p_value": 2.080275611074098e-13
+    },
+    "npig_worst_case_mean": 0.2228851128993079,
+    "method_worst_case_mean": 0.12641391438579982
+  },
+  "UNIFORM_IG": {
+    "per_scheme_tests": {
+      "PAD": {
+        "observed_mean_difference": -0.04253209307872263,
+        "bootstrap_p_value": 1.0,
+        "wilcoxon_p_value": 0.999996217054455
+      },
+      "MASK": {
+        "observed_mean_difference": -0.024042088304013304,
+        "bootstrap_p_value": 0.9920079920079921,
+        "wilcoxon_p_value": 0.9997881738249651
+      },
+      "UNK": {
+        "observed_mean_difference": -0.04065917039952183,
+        "bootstrap_p_value": 1.0,
+        "wilcoxon_p_value": 0.9997386845742786
+      },
+      "DELETE": {
+        "observed_mean_difference": -0.05745757806671463,
+        "bootstrap_p_value": 1.0,
+        "wilcoxon_p_value": 0.9999999937438352
+      }
+    },
+    "worst_case_test": {
+      "observed_mean_difference": -0.043178286930686025,
+      "bootstrap_p_value": 1.0,
+      "wilcoxon_p_value": 0.999999390065433
+    },
+    "npig_worst_case_mean": 0.2228851128993079,
+    "UNIFORM_IG_worst_case_mean": 0.26606339982999394
+  },
+  "GRAD_X_INP": {
+    "per_scheme_tests": {
+      "PAD": {
+        "observed_mean_difference": 0.3491449606956182,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 1.9327854124643614e-61
+      },
+      "MASK": {
+        "observed_mean_difference": 0.3592144788703808,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 3.01706338888702e-64
+      },
+      "UNK": {
+        "observed_mean_difference": 0.34330549383135806,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 2.4419554286400024e-61
+      },
+      "DELETE": {
+        "observed_mean_difference": 0.3177560480092992,
+        "bootstrap_p_value": 0.000999000999000999,
+        "wilcoxon_p_value": 1.5233001186484656e-57
+      }
+    },
+    "worst_case_test": {
+      "observed_mean_difference": 0.31390991562864656,
+      "bootstrap_p_value": 0.000999000999000999,
+      "wilcoxon_p_value": 1.7369715324828684e-61
+    },
+    "npig_worst_case_mean": 0.2228851128993079,
+    "GRAD_X_INP_worst_case_mean": -0.09102480272933866
+  }
+}

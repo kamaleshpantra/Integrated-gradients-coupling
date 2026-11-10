@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research repository or its benchmark data, please cite it as below."
+authors:
+  - family-names: "Anonymous"
+    given-names: "ACL Submission"
+title: "Baseline-Evaluation Coupling in Integrated Gradients for Text: A Cross-Evaluation Study and Analysis of Ensemble Baselines"
+version: 2.0.0
+date-released: 2026-10-30
+url: "https://github.com/anonymous/baseline-coupling-ig"
+keywords:
+  - natural-language-processing
+  - interpretability
+  - integrated-gradients
+  - feature-attribution
+  - faithfulness-evaluation
+  - reproducibility

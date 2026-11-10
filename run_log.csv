@@ -1,0 +1,15 @@
+date,config,seed,code_commit,output_file,status,notes
+2026-10-25,"env_check and download_data.py",42,initial,"D:/hf_cache",FAILED,"Initial huggingface hub cache hit C: drive space limit (0.12 GB free). Fixed by routing downloads to D: drive."
+2026-10-25,"fetch_model.py direct download",42,initial,"D:/models/distilbert",SUCCESS,"Successfully downloaded DistilBERT safetensors and tokenizer to D:/models/distilbert (267.8 MB)."
+2026-10-25,"test_special_tokens.py",42,initial,none,SUCCESS,"Unit tests for special tokens exclusion and erasure operators passed."
+2026-10-25,"test_determinism.py",42,initial,none,SUCCESS,"Unit tests for deterministic attribution under fixed seeds passed."
+2026-10-29,"test_completeness.py",42,initial,none,SUCCESS,"Completeness monotonic convergence verified. Delta drops to 0.02 at 50 steps."
+2026-10-29,"test_random_control.py",42,initial,none,SUCCESS,"Real IG comprehensiveness (0.9994) verified strictly higher than random control (0.0003)."
+2026-10-29,"fetch_datasets.py",42,initial,"project/data/{sst2_val.json, imdb_500.json}",SUCCESS,"Cached 872 SST-2 validation and 500 IMDB test samples locally."
+2026-10-29,"test_10.json benchmark",42,initial,"project/results/test_10.json",SUCCESS,"Initial 10-sample benchmark. Verified baseline non-neutrality and diagonal coupling."
+2026-10-29T13:22:12.633692,sst2_150_steps20_seed42,42,c:/Users/91798/OneDrive/Desktop/Research\project\results\sst2_main_seed42.json,SKIPPED,,already_exists_n=150
+2026-10-29T13:42:30.015453,sst2_150_steps20_seed123,123,c:/Users/91798/OneDrive/Desktop/Research\project\results\sst2_main_seed123.json,SUCCESS,1217.3736028671265,
+2026-10-29T14:02:20.163653,sst2_150_steps20_seed999,999,c:/Users/91798/OneDrive/Desktop/Research\project\results\sst2_main_seed999.json,SUCCESS,1190.1441657543182,
+2026-10-29T15:04:44.069379,imdb_100_steps20_seed42,42,c:/Users/91798/OneDrive/Desktop/Research\project\results\imdb_main_seed42.json,SUCCESS,3743.9039249420166,
+2026-10-29T15:15:13.691855,sst2_50samples_steps50_seed42,42,c:/Users/91798/OneDrive/Desktop/Research\project\results\ablation_steps50_seed42.json,SUCCESS,629.6160895824432,
+2026-10-29T15:31:36.149021,sst2_50samples_steps100_seed42,42,c:/Users/91798/OneDrive/Desktop/Research\project\results\ablation_steps100_seed42.json,SUCCESS,982.4553544521332,
